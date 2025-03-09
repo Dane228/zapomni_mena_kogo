@@ -21,7 +21,7 @@ body{
 
 .soderdganie{
     border-bottom: 2vw solid #000000;
-    height: 30vw;
+    height: 35vw;
 }
 
 .fon .soderdganie details{
@@ -41,6 +41,7 @@ body{
 }
 
 .fon .soderdganie details ul li{
+    font-size: 1vw;
     width: 8vw;
 }
 
