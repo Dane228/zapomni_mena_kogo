@@ -1,0 +1,146 @@
+body{
+    background-image: url(./img/photo_5260676150202594034_x.jpg);
+    background-position: top;
+    background-position: center;
+    background-size: 130%;
+}
+
+.logo img{
+    margin: 2vw 0 0 1vw;
+    border: 1px solid black;
+    white-space: 350;
+    height: 20vw;
+    float: left;
+}
+
+.fon{
+    opacity: 0.99;
+    margin: 5vw;
+    background-color: #fff;
+}
+
+.soderdganie{
+    border-bottom: 2vw solid #000000;
+    height: 27vw;
+}
+
+.fon .soderdganie details{
+    padding:6vw 0vw 0 1vw;
+    float: left;
+    list-style-type: none;
+}
+
+.fon .soderdganie details summary{
+    font-size: 1vw;
+    font-style: italic;
+}
+
+.fon .soderdganie details ul{
+    padding-left: 1vw;
+    margin-bottom:0 ;
+}
+
+.fon .soderdganie details ul li{
+    width: 8vw;
+}
+
+a {
+    text-decoration:none; /*Убираем стандартное подчёркивание ссылки если оно ещё не убрано*/
+    display: inline-block; /*делаем чтобы наша ссылка из строчного элемента превратилась в строчно-блочный*/
+    color:#000000;/*Задаём цвет ссылки*/
+}
+
+a:after {
+    display: block; /*превращаем его в блочный элемент*/
+    content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+    height: 3px; /*задаём высоту линии*/
+    width: 0%; /*задаём начальную ширину элемента (линии)*/
+    background-color: #225384; /*цвет фона элемента*/
+    transition: width 0.4s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+}
+    
+a:hover:after,
+a:focus:after {
+    width: 100%;
+}
+    
+a:hover{
+    color:#225384;
+} 
+
+.fon .gotaro{
+    border-top: 2vw solid black;
+    border-bottom: 2vw solid black;
+
+    height: 40vw;
+}
+.fon .coichi{
+    border-bottom: 2vw solid black;
+
+    height: 35vw;
+}
+.fon .goskiMorio{
+    border-bottom: 2vw solid black;
+
+    height: 50vw;
+}
+.fon .okuiasuMorio{
+    border-bottom: 2vw solid black;
+
+    height: 40vw;
+}
+
+.fon .razmetka h1{
+    color: brown;
+    font-size: 3.5vw;
+    text-align: center;
+}
+
+.fon .razmetka h2{
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+.fon .razmetka .opisanie{
+    float: left;
+    width: 19vw;
+    padding: 1vw;
+}
+
+.fon .razmetka .opisanie img{
+    width: 19vw;
+}
+
+.fon .razmetka .opisanie p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.ptica{
+    border-top: 2vw solid black;
+    border-bottom: 2vw solid black;
+    height: 35vw;
+}
+
+.Kira2{
+    border-top: 2vw solid black;
+    border-bottom: 2vw solid black;
+    height: 45vw;
+}
+
+.glavnaia h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.glavnaia{
+    padding: 30px;
+    background-color: #fff;
+    margin: 50px;
+    height: 500px;
+}
+
+.glavnaia a{
+    margin-right: 500px;
+}
